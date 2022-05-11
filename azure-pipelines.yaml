@@ -5,8 +5,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-        imageName: 'fatherlinux/ubi-azure-pipelines-build'
-        serviceConnection: 'quayServiceConnection'
+        imageName: 'kevchu3/ubi-azure-pipelines-build'
+        serviceConnection: 'kevchu3 Quay.io'
 
 steps:
 - task: Docker@2
